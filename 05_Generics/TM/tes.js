@@ -1,9 +1,9 @@
-// @ts-nocheck
+
 const fb = require("./fizz.js");
 const assert = require("assert");
 
 try {
-    // Contoh tes 1: [1, 2, 3, 4, 5] mengembalikan [1, 2, 'Fizz', 4, 'Buzz']
+
     console.log("Seri: fizzBuzz");
     assert.deepStrictEqual(fb.fizzBuzz([1, 2, 3, 4, 5]), [1, 2, 'Fizz', 4, 'Buzz'], "Tes 1 gagal lolos");
     console.log("✅ Tes 2 berhasil");
@@ -17,8 +17,7 @@ try {
     assert.deepStrictEqual(fb.fizzBuzz([]), [], "Tes 4 gagal lolos");
     console.log("✅ Tes 4 berhasil");
 
-    // assert.throws akan berhasil jika memang error (tips: pakai throw new)
-    // Asersinya akan gagal jika tidak error
+
     assert.throws(() => fb.fizzBuzz(1214));
     console.log("✅ Tes 5 berhasil");
 

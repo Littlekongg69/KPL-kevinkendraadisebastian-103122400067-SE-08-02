@@ -11,8 +11,8 @@ function hitung(str, tipe) {
 
 const str = "Bar bar bar";
 
-console.log(hitung(str, "semua")); // 11
-console.log(hitung(str, "huruf")); // 9
+console.log(hitung(str, "semua")); 
+console.log(hitung(str, "huruf")); 
 
-hitung(str, "huruf"); // tidak tampil apa-apa
+hitung(str, "huruf"); 
 

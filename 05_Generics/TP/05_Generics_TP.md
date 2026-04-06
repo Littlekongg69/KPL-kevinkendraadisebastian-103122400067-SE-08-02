@@ -1,8 +1,8 @@
 # Tugas Pendahuluan : Generics
 
-Quratu Ayun Defaren
+Kevin kendra adi sebastian
 
-103122400064
+103122400067
 
 SE-08-02
 
