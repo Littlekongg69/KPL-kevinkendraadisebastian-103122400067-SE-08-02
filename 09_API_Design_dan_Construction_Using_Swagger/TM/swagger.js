@@ -5,13 +5,19 @@ const options = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "Tebak Angka",
+      title: "API Tebak Angka",
       version: "1.0.0",
-      description:
-        "Sebuah API sederhana untuk permainan tebak angka berdasarkan nama pemain",
+      description: "Sebuah API sederhana untuk permainan tebak angka berdasarkan nama pemain",
     },
+    servers: [
+      {
+        url: "http://localhost:3000",
+        description: "Development server",
+      },
+    ],
   },
-  apis: ["index.js"],
+  // Membaca dokumentasi dari file index.js
+  apis: ["./index.js"], 
 };
 
 const specs = swaggerJsdoc(options);
